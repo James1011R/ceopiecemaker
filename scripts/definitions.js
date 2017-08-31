@@ -134,7 +134,7 @@ MOVES = [{
     "cat": "official",
     "name": "teleport",
     "long": "b]mu:move",
-    "text": "(Unblockable) Teleport.",
+    "text": "Abra use teleport! (best move)",
     "color": [121, 19, 153]
 }, {
     "id": "7",
@@ -148,7 +148,7 @@ MOVES = [{
     "cat": "official",
     "name": "plant",
     "long": "2p]ru:transform@SAPLING/summon@SAPLING",
-    "text": "[Pay 2]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
+    "text": "[Pay 2]: (Magic) Summon Xurkitree or transform enemy into ally Trevenant.",
     "color": [0, 101, 24]
 }, {
     "id": "9",
@@ -162,7 +162,7 @@ MOVES = [{
     "cat": "official",
     "name": "skeleton",
     "long": "4p]ru:summon@SKELETON&set@value=0",
-    "text": "[Pay 4]: (Magic) Summon Value 0 Skeleton.",
+    "text": "[Pay 4]: (Magic) Summon Value 0 Duskull.",
     "color": [102, 102, 102],
     "color3": [0, 0, 0],
     "content": "\u26e7"
@@ -179,7 +179,7 @@ MOVES = [{
     "cat": "official",
     "name": "poison",
     "long": "s]ru:poison#flag@3&attack",
-    "text": "(Magic) Poison enemy unit, destroying them in 3 turns.",
+    "text": "(Magic) Poision enemy unit, destroying them in 3 turns.",
     "color": [0, 101, 24],
     "content": "\u00d7"
 }, {
@@ -187,7 +187,7 @@ MOVES = [{
     "cat": "official",
     "name": "freeze",
     "long": "s]ru:freeze#flag@3-move",
-    "text": "(Magic) Freeze enemy unit, making them unable to move or attack for 3 turns.",
+    "text": "(Magic) Frostmage, use ice beam!",
     "color": [107, 205, 253],
     "content": "\u00d7"
 }, {
@@ -230,7 +230,7 @@ MOVES = [{
    "cat": "official",
    "name": "sorcer",
    "long": "3]",
-   "text": "[Pay 3] .",
+   "text": "And that would be a grand meme.",
    "color": [255,0,0],
    "color2": [127,0,0],
    "content": "\uffec",
@@ -250,7 +250,7 @@ MOVES = [{
     "cat": "official",
     "name": "soulkeep",
     "long": "1cp]ru:transform@GHOST",
-    "text": "[Pay 1]: (Magic) Transform enemy into ally Ghost.",
+    "text": "[Pay 1]: (Magic) Transform enemy into ally Gengar (the child molester pokemon).",
     "color": [208, 88, 161],
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
@@ -268,7 +268,7 @@ MOVES = [{
     "cat": "official",
     "name": "slime",
     "long": "pt]:meleedeath?this+move?summon@SLIME",
-    "text": "(Trigger) On Melee Death: Summon ally Slime into this empty location. If this unit is Frozen or Petrified this ability cannot activate.",
+    "text": "(Triggered) On Melee Death: Summon ally Slime into this empty location. If this unit is Freeze hacked or Petrified this ability cannot activate.",
     "color": [0, 153, 0],
     "color2": [255, 255, 255],
     "color3": [0, 204, 0],
@@ -278,7 +278,7 @@ MOVES = [{
     "cat": "official",
     "name": "moon",
     "long": "pt]:meleedeath?summon@this&set@value-=10",
-    "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 10. If this unit's value is less than 10 this ability cannot activate.",
+    "text": "Moonwolf.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u263d"
@@ -287,7 +287,7 @@ MOVES = [{
     "cat": "official",
     "name": "jumpattackminion",
     "long": "b]mu:minion?attack",
-    "text": "(Unblockable) Attack Minion.",
+    "text": ":tigre:",
     "color": [138, 63, 63],
     "color2": [255, 255, 255],
     "color3": [195, 63, 63],
@@ -325,7 +325,7 @@ MOVES = [{
     "cat": "official",
     "name": "push",
     "long": "1c]rn:push#\\(mn:move@3(AWAY))",
-    "text": "[Pay 1]: (Ranged) Push unit up to 3 spaces away from caster.",
+    "text": "Lol Ranged wind.",
     "color": [87, 218, 40],
     "color2": [255, 255, 255],
     "content": "\u25cc"
@@ -361,7 +361,7 @@ MOVES = [{
     "cat": "official",
     "name": "lifestone",
     "long": "cp]ru:summon@(CAN-REVIVE)&thisattack",
-    "text": "(Magic) Revive most recently fallen ally champion of value 2x this unit's value or less, and destroy this unit.",
+    "text": "A stone that can create life (or something).",
     "color": [0, 0, 0],
     "color2": [58, 233, 93],
     "content": "\uea41"
@@ -370,7 +370,7 @@ MOVES = [{
     "cat": "official",
     "name": "heal",
     "long": "1st]:ally?status?deflag",
-    "text": "[Pay 1]: (Trigger) Ally Status Effect: Instantly cure this target at the start of your turn, removing all negative status effects.",
+    "text": "Healer is a great ability.",
     "color": [0, 0, 0],
     "color2": [58, 233, 93],
     "content": "\uea42"
@@ -388,7 +388,7 @@ MOVES = [{
     "cat": "official",
     "name": "moveattackblock",
     "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mn:move/attack)",
-    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.",
+    "text": "Block. NoBlock. Also James I know this will probably be rejected because you're not that stupid, but actually remove that /n.",
     "color": [0, 0, 0],
     "color3": [255, 255, 255],
     "content": "\u2219"
@@ -405,7 +405,7 @@ MOVES = [{
     "cat": "official",
     "name": "freezestrike",
     "long": "bs]ru:thisattack&freeze#flag@3-move",
-    "text": "(Magic) Destroy self at target location and Freeze enemy unit, making them unable to Move or Attack for 3 turns.",
+    "text": "(Magic) Destroy self at target location and Freeze hack enemy unit, making them unable to Move or Attack for 3 turns.",
     "color": [107, 205, 253],
     "color3": [0, 255, 255],
     "content": "\u2738"
@@ -441,7 +441,7 @@ MOVES = [{
     "cat": "official",
     "name": "attract",
     "long": "ct]ru:end?!ally?\\(mn:move@-1(AWAY))",
-    "text": "(Magic, Trigger) Enemy Unit: At the end of your opponent's turn, target moves 1 space in the direction of this unit.",
+    "text": "Gardevoir used Attract! The enemy piecemaker became infatuated with love.",
     "color": [255, 63, 255],
     "color2": [255, 255, 255],
     "content": "\u25c7"
@@ -450,7 +450,7 @@ MOVES = [{
     "cat": "official",
     "name": "shoot",
     "long": "b]rn:attack",
-    "text": "(Ranged) Destroy target.",
+    "text": "Rngd: Dstry trgt.",
     "color": [255, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u2316"
@@ -486,7 +486,7 @@ MOVES = [{
     "cat": "official",
     "name": "envy",
     "long": "c]ru:thisset@type=\\this&thisset@tier=\\this",
-    "text": "(Magic) Transform into target enemy unit type.",
+    "text": "Ditto used Transform.",
     "color": [127, 192, 127],
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
@@ -505,7 +505,7 @@ MOVES = [{
     "cat": "official",
     "name": "pike",
     "long": "bt]:targeted@(m*:attack)?attack",
-    "text": "(Passive) On Melee Death from this location: Destroy the attacker.",
+    "text": "Destiny Bond.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
@@ -708,7 +708,7 @@ MOVES = [{
     "cat": "variation",
     "name": "moveblock",
     "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mn:move)",
-    "text": "(Passive) Block one melee attack from this location, and lose this ability. \n(Active) Move only.",
+    "text": "(Passive) Block one melee attack from this location, and lose this ability. (Active) Move only.",
     "color": [0, 0, 255],
     "color3": [255, 255, 255],
     "content": "\u2219",
@@ -718,7 +718,7 @@ MOVES = [{
     "cat": "variation",
     "name": "rangedblock",
     "long": "bv]:block@(rn:attack)&(LOSEABILTY)/(mn:move/attack)",
-    "text": "(Passive) Block one ranged destroy from this location, and lose this ability. \n(Active) Move or Attack.",
+    "text": "(Passive) Block one ranged destroy from this location, and lose this ability. (Active) Move or Attack.",
     "color": [0, 0, 0],
     "color3": [127, 255, 127],
     "content": "\u2219",
@@ -827,7 +827,7 @@ MOVES = [{
     "cat": "variation",
     "name": "wisp",
     "long": "t]:targeted:(REFLECT)",
-    "text": "(Passive) On Target from this location: Reflect ability.",
+    "text": "Metal Burst.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
@@ -872,7 +872,7 @@ MOVES = [{
     "cat": "adoption",
     "name": "levitate",
     "long": "s]ru:flag@2-((mn:attack)/\\mn:attack)",
-    "text": "(Magic) Levitate unit for 2 turns, making them unable to use or be targeted by normal Attacks.",
+    "text": "I Engliss good.",
     "color": [121, 19, 153],
     "color3": [255, 255, 0],
     "content": "^",
@@ -882,7 +882,7 @@ MOVES = [{
     "cat": "adoption",
     "name": "notarget",
     "long": "v]:-\\**:*",
-    "text": "(Passive) Can't be targeted from this location.",
+    "text": "Full Negate.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u2300",
@@ -921,7 +921,7 @@ MOVES = [{
     "cat": "adoption",
     "name": "backtech",
     "long": "1cs]ru:*ally?flag@3(t]\\!ally?targeted?mn:move@1(AWAY))",
-    "text": "[Pay 1]: (Magic) Back-tech unit, making them move 1 square in the opposite direction after targeting enemy for 3 turns.",
+    "text": "Does anyone know what the fuck this does?",
     "color": [127, 127, 191],
     "color3": [64, 64, 95],
     "content": "\u25cc",
@@ -931,7 +931,7 @@ MOVES = [{
     "cat": "adoption",
     "name": "destroysplash",
     "long": "1c]ru:attack&1(RANGE)\\Amove@1(AWAY))",
-    "text": "[Pay 1]: (Magic) Destroy target and push adjacent enemy units 1 space away.",
+    "text": "Magikarp, use Z-Splash! Magikarp's Attack drastically rose! The opposing Alakazam used Focus Blast! Magikarp avoided the attack! Magikarp uses Splash! But nothing happened! The opposing Alakazam used Focus Blast! Magikarp avoided the attack! Magikarp used Magikarp's Revenge! The opposing Alakazam fainted!",
     "color": [0, 101, 24],
     "color2": [255, 255, 255],
     "content": "\u2747",
@@ -941,7 +941,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "annihilate",
     "long": "c]rz:(REMOVE)",
-    "text": "(Invocation) Annihilate target.",
+    "text": "James Waifu2.",
     "color": [200, 200, 200],
     "color3": [253, 117, 34],
     "content": "*",
@@ -956,16 +956,6 @@ MOVES = [{
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
     "content": "\u2300",
-    "hide": true
-}, {
-    "id": "b3",
-    "cat": "ultrapretendlimitededition",
-    "name": "decimate",
-    "long": "c]ru:set@value=-3",
-    "text": "(Magic) Target loses 3 value. If unit has 3 value or less, destroy it instead.",
-    "color": [64, 0, 255],
-    "color2": [0, 0, 0],
-    "content": "\ufe63",
     "hide": true
 }, {
     "id": "c1",
@@ -1004,7 +994,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom5",
     "long": "z]",
-    "text": "Custom action 5 (Double Click Menu Icon to Edit)",
+    "text": "Have you got the pattern yet?",
     "color": [25, 227, 25],
     "content": "5"
 }, {
@@ -1012,7 +1002,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom6",
     "long": "z]",
-    "text": "Custom action 6 (Double Click Menu Icon to Edit)",
+    "text": "You understand right?",
     "color": [25, 227, 126],
     "content": "6"
 }, {
@@ -1020,7 +1010,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom7",
     "long": "z]",
-    "text": "Custom action 7 (Double Click Menu Icon to Edit)",
+    "text": "Are you just dumb?",
     "color": [25, 227, 227],
     "content": "7"
 }, {
@@ -1028,7 +1018,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom8",
     "long": "z]",
-    "text": "Custom action 8 (Double Click Menu Icon to Edit)",
+    "text": "Mepbud's closet.",
     "color": [25, 126, 227],
     "content": "8"
 }, {
@@ -1036,80 +1026,72 @@ MOVES = [{
     "cat": "custom",
     "name": "custom9",
     "long": "z]",
-    "text": "Custom action 9 (Double Click Menu Icon to Edit)",
+    "text": "Lol James can't delete this.",
     "color": [25, 25, 227],
-    "content": "9",
-    "hide": true
+    "content": "9"
 }, {
     "id": "c10",
     "cat": "custom",
     "name": "custom10",
     "long": "z]",
-    "text": "Custom action 10 (Double Click Menu Icon to Edit)",
+    "text": "Period. NoPeriod",
     "color": [126, 25, 227],
-    "content": "A",
-    "hide": true
+    "content": "A"
 }, {
     "id": "c11",
     "cat": "custom",
     "name": "custom11",
     "long": "z]",
-    "text": "Custom action 11 (Double Click Menu Icon to Edit)",
+    "text": "If you need these many customs, your name is StratShotPlayer",
     "color": [227, 25, 227],
-    "content": "B",
-    "hide": true
+    "content": "B"
 }, {
     "id": "c12",
     "cat": "custom",
     "name": "custom12",
     "long": "z]",
-    "text": "Custom action 12 (Double Click Menu Icon to Edit)",
+    "text": "Error: BlockNoBlock detected! Purging piece.",
     "color": [227, 25, 126],
-    "content": "C",
-    "hide": true
+    "content": "C"
 }, {
     "id": "c13",
     "cat": "custom",
     "name": "custom13",
     "long": "z]",
-    "text": "Custom action 13 (Double Click Menu Icon to Edit)",
+    "text": "James plz.",
     "color": [25, 25, 25],
-    "content": "D",
-    "hide": true
+    "content": "D"
 }, {
     "id": "c14",
     "cat": "custom",
     "name": "custom14",
     "long": "z]",
-    "text": "Custom action 14 (Double Click Menu Icon to Edit)",
+    "text": "Oh fuck James figured out how to delete this.",
     "color": [126, 126, 126],
-    "content": "E",
-    "hide": true
+    "content": "E"
 }, {
     "id": "c15",
     "cat": "custom",
     "name": "custom15",
     "long": "z]",
-    "text": "Custom action 15 (Double Click Menu Icon to Edit)",
+    "text": "Well this is a waste of time.",
     "color": [227, 227, 227],
-    "content": "F",
-    "hide": true
+    "content": "F"
 }, {
     "id": "c16",
     "cat": "custom",
     "name": "custom16",
     "long": "z]",
-    "text": "Custom action 16 (Double Click Menu Icon to Edit)",
+    "text": "But I needed these for capymon abilities. I almost ran out on my mewtwo.",
     "color": [126, 126, 25],
-    "content": "0",
-    "hide": true
+    "content": "0"
 }];
 
 /* Self reminder
 \\ when creating an ability of slightly different ability, prefer these changes:
 \\ "\ufe62" Targets all
 \\ "\u22c6" Magic
-\\ "\u2295" Ranged
+\\ "\u2295" Your face
 */
 
 PASSIVES = ["Does not block movement.",
@@ -1121,14 +1103,12 @@ PASSIVES = ["Does not block movement.",
     "(Ranged-Immune)",
     "(Magic-Immune)",
     "(Status-Immune)",
-    "(Trigger-Immune)",
-    "(Reaction-Immune)",
-    "(Location-Immune)"
+    "(Trigger-Immune)"
 ];
 LABELS = {
-    rank: ["Minion", "Champion"],
-    faction: ["Basic", "Clan", "Arcane", "Forest"],
-    rarity: ["Common", "Rare", "Epic", "Legendary"]
+    rank: ["Minion", "Champion", "Raid"],
+    faction: ["Basic", "Clan", "Arcane", "Forest", "Grass", "Psychic", "Undefined"],
+    rarity: ["Common", "Rare", "Epic", "Legendary", "Ultra Beast", "Ubers", "OU", "UU", "AG", "Mythical", "StratShitPretendPiece"]
 }
 LEVELS = ["base", "plus", "plusplus", "plusplusplus"];
 
