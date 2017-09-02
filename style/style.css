@@ -219,7 +219,7 @@ li.active {
   background: rgb(204, 204, 204) none repeat scroll 0% 0%;
 }
 li.custom {
-	overflow-wrap: break-word;
+	word-break: break-all;
 }
 li.custom.active{
   background: rgb(255, 255, 204) none repeat scroll 0% 0%;
@@ -232,19 +232,22 @@ textarea, input {
   padding-top: 4px;
   resize: none;
   vertical-align: 1px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Consolis, monospac;
+  color: #111;
   font-weight: bold;
 }
+
 #uniprev{
   font-family: Consolis, monospac;
   font-weight: 400;
-  font-size:36px;
+  font-size: 36px;
   padding: 0;
   height: 38px;
   vertical-align: bottom;
   display:inline-block;
 }
+
 .panel textarea, .panel input{
   background: rgba(222, 222, 222, 0.7);
   box-shadow: #ccc 2px 2px 2px inset, #aaa -1px -1px 2px inset;
@@ -277,10 +280,19 @@ ul {
   min-width: 100px;
 }
 .cost {
-  font-size: large;
+  font-size: 15px;
   text-align: center;
   color: rgb(68, 68, 68);
   font-weight: bold;
+}
+.cost input {
+  color: rgb(68, 68, 68);
+  padding-top: 0px;
+  font-size: 15px;
+  margin: 0px;
+  font-family: sans-serif;
+  vertical-align: 0px;
+  width: 1.2em;
 }
 .cost + div {
   border: 2px solid black;
@@ -495,8 +507,4 @@ nav {
 }
 .cost, .name {
   height: 20px;
-}
-.vertical-scroll {
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
