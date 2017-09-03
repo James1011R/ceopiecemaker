@@ -352,7 +352,7 @@ MOVES = [{
     "cat": "official",
     "name": "teleportswap",
     "long": "b]mu:move/swap",
-    "text": "(Unblockable) Teleport or swap places with an Ally.",
+    "text": "(Unblockable) Teleport or swap places with ally.",
     "color": [121, 19, 153],
     "color3": [0, 0, 0],
     "content": "\u{1f5d8}"
@@ -678,7 +678,7 @@ MOVES = [{
     "cat": "variation",
     "name": "moveswap",
     "long": "b]mn:move/swap",
-    "text": "Move or Swap places with ally.",
+    "text": "Move or swap places with ally.",
     "color": [0, 0, 255],
     "color3": [0, 0, 0],
     "content": "\u{1f5d8}",
