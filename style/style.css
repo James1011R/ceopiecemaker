@@ -249,6 +249,12 @@ textarea, input {
   background: rgba(222, 222, 222, 0.7);
   box-shadow: #ccc 2px 2px 2px inset, #aaa -1px -1px 2px inset;
 }
+.panel textarea:disabled, .panel input:disabled{
+box-shadow: none;
+}
+.panel textarea:invalid, .panel input:invalid{
+background: rgba(255, 188, 188, 0.7);
+}
 textarea, input, button{
   color: #111;
 }
