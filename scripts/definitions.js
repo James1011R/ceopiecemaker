@@ -866,6 +866,15 @@ MOVES = [{
     "color": [210, 210, 255],
     "hide": true
 }, {
+    "id": "35b",
+    "cat": "limbo",
+    "name": "moonflare",
+    "long": "b]rz:attack",
+    "text": "(Invocation) Destroy target.",
+    "color": [34, 117, 253],
+    "content": "\u263e",
+    "hide": true
+}, {
     "id": "a1",
     "cat": "adoption",
     "name": "flirt",
