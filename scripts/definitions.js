@@ -1017,7 +1017,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "protosorcertarget",
     "long": "s]ru:sorcerize#flag@3-!(target?!ally)",
-    "text": "(Magic) Sorcerize target, forcing them to target enemy units if they are capable of targeting any for 3 turns.",
+    "text": "(Magic) Enrage target, forcing them to target enemy units if they are capable of targeting any for 3 turns.",
     "color": [255, 0, 0],
     "color2": [0, 0, 0],
     "content": "\u00d7",
@@ -1027,7 +1027,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "protosorcerdestroy",
     "long": "cs]ru:sorcerize#flag@3(t]:targeted?block@(**:*)&thisattack)",
-    "text": "(Magic) Sorcerize target, causing them to be destroyed by any ability for 3 turns.",
+    "text": "(Magic) Weaken target, causing them to be destroyed by any ability for 3 turns.",
     "color": [0, 0, 255],
     "color2": [0, 0, 0],
     "content": "\uffec",
@@ -1037,7 +1037,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "protosorcerantienchant",
     "long": "cs]ru:sorcerize#flag@3(@+(move:attack))",
-    "text": "(Magic) Sorcerize target, allowing them to be attacked by Move for 3 turns.",
+    "text": "(Magic) Disenchant target, allowing them to be attacked by Move for 3 turns.",
     "color": [0, 0, 255],
     "color2": [0, 0, 127],
     "content": "\uffec",
@@ -1062,6 +1062,36 @@ MOVES = [{
     "color2": [0, 0, 0],
     "color3": [255, 255, 255],
     "content": "\u25c7",
+    "hide": true
+}, {
+    "id": "b11",
+    "cat": "ultrapretendlimitededition",
+    "name": "bullrush",
+    "long": "c]mn:push#\\(mn:move@3(AWAY))",
+    "text": "Move to unit and push them up to 3 spaces away.",
+    "color": [87, 218, 40],
+    "color2": [255, 255, 255],
+    "content": "\u2b1a",
+    "hide": true
+}, {
+    "id": "b12",
+    "cat": "ultrapretendlimitededition",
+    "name": "void",
+    "long": "m]:flag@4(-move&(BLOCK))",
+    "text": "Mark location as Void for 4 turns. A void location cannot be moved on if there isn't a unit there and blocks movement.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\u2742\u2747",
+    "hide": true
+}, {
+    "id": "b13",
+    "cat": "ultrapretendlimitededition",
+    "name": "assassinate",
+    "long": "bc]mz:move/(REMOVE)",
+    "text": "(Unstoppable) Teleport to empty or enemy-occupied location, annihilating the unit there.",
+    "color": [75, 0, 150],
+    "color3": [0, 0, 0],
+    "content": "\u2727",
     "hide": true
 }, {
     "id": "c1",
