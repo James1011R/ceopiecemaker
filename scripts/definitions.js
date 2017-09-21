@@ -59,7 +59,7 @@ LTE = ["meleedeath", "death", "start", "end", "status", "targeted"];
 // Especially those requiring more complex explanation.
 // Current listed items:
 // (RANDOM), (ENCHANT), (CAN-REVIVE), (RANGE), (AWAY), (KING), (LOSEABILITY),
-// (MOVETOGETHER), (RANDOMMINION), (LOSEIMMUNE), (REFLECT), (REMOVE), (EXILE)
+// (MOVETOGETHER), (RANDOMMINION), (LOSEIMMUNE), (REFLECT), (REMOVE), (EXILE), (BONUS)
 //
 // #Away: # Square away from the caster, if unspecified, assume infinity.
 // #Range: Squares of range #, if unspecified, assume 1.
@@ -1088,10 +1088,30 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "assassinate",
     "long": "bc]mz:move/(REMOVE)",
-    "text": "(Unstoppable) Teleport to empty or enemy-occupied location, annihilating the unit there.",
+    "text": "(Unstoppable) Move or Assassinate.",
     "color": [75, 0, 150],
     "color3": [0, 0, 0],
     "content": "\u2727",
+    "hide": true
+}, {
+    "id": "b14",
+    "cat": "ultrapretendlimitededition",
+    "name": "bonusmove",
+    "long": "b]mn:move&(BONUS)",
+    "text": "[Bonus Action] Move only.",
+    "color": [0, 0, 255],
+    "color3": [255, 255, 255],
+    "content": "\u22a1",
+    "hide": true
+}, {
+    "id": "b15",
+    "cat": "ultrapretendlimitededition",
+    "name": "pullunder",
+    "long": "c]ru:(EXILE)3@pos",
+    "text": "(Magic) Exile unit, then return them in 3 turns.",
+    "color": [0, 80, 150],
+    "color3": [0, 0, 0],
+    "content": "\u2742",
     "hide": true
 }, {
     "id": "c1",
@@ -1249,7 +1269,11 @@ PASSIVES = ["Does not block movement.",
     "(Status-Immune)",
     "(Trigger-Immune)",
     "(Reaction-Immune)",
-    "(Location-Immune)"
+    "(Location-Immune)",
+    "On Death: ",
+    "On Kill: ",
+    "On Melee Death: ",
+    "An enemy unit that targets this unit with any attack or ability is "
 ];
 LABELS = {
     rank: ["Minion", "Champion", "Boss", "King", "Capymon"],
