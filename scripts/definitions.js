@@ -863,7 +863,7 @@ MOVES = [{
     "name": "warpswap",
     "long": "b]mz:move/attack/swap",
     "text": "(Unstoppable) Move, Attack or swap places with ally.",
-    "color": [210, 210, 255],
+    "color": [180, 210, 255],
     "hide": true
 }, {
     "id": "35b",
