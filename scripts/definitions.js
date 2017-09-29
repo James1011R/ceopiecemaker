@@ -378,8 +378,8 @@ MOVES = [{
     "id": "34",
     "cat": "official",
     "name": "necromance",
-    "long": "2cp]ru:ally?type==SKELETON?set@tier+=1/transform@SKELETON",
-    "text": "[Pay 2]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally Value 0 Skeleton.",
+    "long": "2cp]ru:ally?type==SKELETON?set@tier+=1/transform@BONEPILE",
+    "text": "[Pay 2]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally BonePile.",
     "color": [0, 0, 0],
     "color2": [227, 0, 0],
     "content": "\ue901"
@@ -431,8 +431,8 @@ MOVES = [{
     "id": "40",
     "cat": "official",
     "name": "thunder",
-    "long": "m]:flag@4&(ru:attack)",
-    "text": "Mark location to be destroyed by Magic 4 turns after activating.",
+    "long": "1m]:flag@4&(ru:attack)",
+    "text": "[Pay 1]: Mark location to be destroyed by Magic 4 turns after activating.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u26a1"
@@ -548,6 +548,15 @@ MOVES = [{
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
     "content": "\u25cc"
+}, {
+    "id": "53",
+    "cat": "official",
+    "name": "earthmagic",
+    "long": "ps]ru:petrify#flag@3-move/summon@STONEPILLAR",
+    "text": "(Magic) Create StonePillar in this empty location, or petrify enemy for 3 turns, making them unable to act.",
+    "color": [94, 94, 94],
+    "color3": [25, 25, 25],
+    "content": "\u25af"
 }, {
     "id": "0a",
     "cat": "variation",
