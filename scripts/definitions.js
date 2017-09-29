@@ -532,7 +532,7 @@ MOVES = [{
     "id": "51",
     "cat": "official",
     "name": "compel",
-    "long": "s]rn:compel#flag&(COMPEL)"
+    "long": "s]rn:compel#flag&(COMPEL)",
     "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of each turn, for 3 turns.",
     "color": [204, 0, 153],
     "color2": [255, 255, 255],
