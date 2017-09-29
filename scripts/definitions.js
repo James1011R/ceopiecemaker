@@ -542,7 +542,7 @@ MOVES = [{
     "id": "52",
     "cat": "official",
     "name": "rush",
-    "long": "c]mn:(RUSH)"
+    "long": "c]mn:(RUSH)",
     "text": "Rush enemy, pushing it up to 3 spaces away from this unit and destroying the enemy if it collides with any unit or the field edge. This unit stops moving one space before the enemy if they survive this ability.",
     "color": [255, 0, 0],
     "color2": [255, 255, 255],
@@ -866,7 +866,7 @@ MOVES = [{
     "id": "52a",
     "cat": "variation",
     "name": "arcanerush",
-    "long": "c]mu:(RUSH)"
+    "long": "c]mu:(RUSH)",
     "text": "(Unblockable) Rush enemy, pushing it up to 3 spaces away from this unit and destroying the enemy if it collides with any unit or the field edge. This unit stops moving one space before the enemy if they survive this ability.",
     "color": [255, 0, 0],
     "color2": [200, 200, 200],
