@@ -187,15 +187,15 @@ MOVES = [{
     "cat": "official",
     "name": "freeze",
     "long": "s]ru:freeze#flag@3-move",
-    "text": "(Magic) Freeze enemy unit, making them unable to move or attack for 3 turns.",
+    "text": "(Magic) Freeze enemy unit, making them unable to act for 3 turns.",
     "color": [107, 205, 253],
     "content": "\u00d7"
 }, {
     "id": "14",
     "cat": "official",
     "name": "petrify",
-    "long": "s]rn:pretrify#flag@5-move",
-    "text": "(Ranged) Petrify enemy unit, making them unable to move or attack for 5 turns.",
+    "long": "s]rn:petrify#flag@5-move",
+    "text": "(Ranged) Petrify enemy unit, making them unable to act for 5 turns.",
     "color": [94, 94, 94],
     "content": "\u00d7"
 }, {
@@ -520,6 +520,35 @@ MOVES = [{
     "color2": [200, 255, 200],
     "content": "\u25cb\u2742"
 }, {
+    "id": "50",
+    "cat": "official",
+    "name": "butterflyeffect",
+    "long": "bm]ru:thisattack&flag@20&(thissummon\!ally?ru:attack\ally?enchant#flag@2(ENCHANT))",
+    "text": "(Magic) Destroy self and mark location with effect that occurs after 20 turns. If location is empty, butterfly is revived into this location. If location contains an enemy, that unit is destroyed. If location contains an ally, that unit is enchanted for 2 turns.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\u27bc"
+}, {
+    "id": "51",
+    "cat": "official",
+    "name": "compel",
+    "long": "s]rn:compel#flag&(COMPEL)"
+    "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of each turn, for 3 turns.",
+    "color": [204, 0, 153],
+    "color2": [255, 255, 255],
+    "color3": [255, 51, 255],
+    "content": "\u2661"
+}, {
+    "id": "52",
+    "cat": "official",
+    "name": "rush",
+    "long": "c]mn:(RUSH)"
+    "text": "Rush enemy, pushing it up to 3 spaces away from this unit and destroying the enemy if it collides with any unit or the field edge. This unit stops moving one space before the enemy if they survive this ability.",
+    "color": [255, 0, 0],
+    "color2": [255, 255, 255],
+    "color3": [0, 0, 0],
+    "content": "\u25cc"
+}, {
     "id": "0a",
     "cat": "variation",
     "name": "swap",
@@ -832,6 +861,17 @@ MOVES = [{
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
     "content": "\uEA14",
+    "hide": true
+}, {
+    "id": "52a",
+    "cat": "variation",
+    "name": "arcanerush",
+    "long": "c]mu:(RUSH)"
+    "text": "(Unblockable) Rush enemy, pushing it up to 3 spaces away from this unit and destroying the enemy if it collides with any unit or the field edge. This unit stops moving one space before the enemy if they survive this ability.",
+    "color": [255, 0, 0],
+    "color2": [200, 200, 200],
+    "color3": [0, 0, 0],
+    "content": "\u25cb\u2742",
     "hide": true
 }, {
     "id": "31b",
@@ -1276,9 +1316,9 @@ PASSIVES = ["Does not block movement.",
     "An enemy unit that targets this unit with any attack or ability is "
 ];
 LABELS = {
-    rank: ["Minion", "Champion", "Boss", "King", "Capymon"],
-    faction: ["Basic", "Clan", "Arcane", "Forest", "AG", "Ubers", "OU", "UU", "NU", "RU", "PU"],
-    rarity: ["Common", "Rare", "Epic", "Legendary", "Ultra Beast"]
+    rank: ["Minion", "Champion", "Boss", "King"],
+    faction: ["Basic", "Clan", "Arcane", "Forest",],
+    rarity: ["Common", "Rare", "Epic", "Legendary"]
 }
 LEVELS = ["base", "plus", "plusplus", "plusplusplus"];
 
