@@ -522,15 +522,6 @@ MOVES = [{
 }, {
     "id": "50",
     "cat": "official",
-    "name": "butterflyeffect",
-    "long": "bm]ru:thisattack&flag@20&(thissummon\!ally?ru:attack\ally?enchant#flag@2(ENCHANT))",
-    "text": "(Magic) Destroy self and mark location with effect that occurs after 20 turns.",
-    "color": [0, 0, 0],
-    "color2": [255, 255, 255],
-    "content": "\u27bc"
-}, {
-    "id": "51",
-    "cat": "official",
     "name": "compel",
     "long": "s]rn:compel#flag&(COMPEL)",
     "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of each turn, for 3 turns.",
@@ -538,6 +529,15 @@ MOVES = [{
     "color2": [255, 255, 255],
     "color3": [255, 51, 255],
     "content": "\u2661"
+}, {
+    "id": "51",
+    "cat": "official",
+    "name": "butterflyeffect",
+    "long": "bm]ru:thisattack&flag@20&(thissummon\!ally?ru:attack\ally?enchant#flag@2(ENCHANT))",
+    "text": "(Magic) Destroy self and mark location with effect that occurs after 20 turns.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\u27bc"
 }, {
     "id": "52",
     "cat": "official",
@@ -550,6 +550,15 @@ MOVES = [{
     "content": "\u25cc"
 }, {
     "id": "53",
+    "cat": "official",
+    "name": "jumpattack",
+    "long": "b]mu:attack",
+    "text": "(Unblockable) Attack only.",
+    "color": [243, 0, 0],
+    "color2": [173, 64, 64],
+    "hide": true
+}, {
+    "id": "54",
     "cat": "official",
     "name": "earthmagic",
     "long": "ps]ru:petrify#flag@3-move/summon@STONEPILLAR",
@@ -664,14 +673,6 @@ MOVES = [{
     "color2": [0, 0, 0],
     "color3": [255, 255, 255],
     "content": "\u25cb",
-    "hide": true
-}, {
-    "id": "24a",
-    "cat": "variation",
-    "name": "jumpattack",
-    "long": "b]mu:attack",
-    "text": "(Unblockable) Attack only.",
-    "color": [127, 0, 0],
     "hide": true
 }, {
     "id": "25a",
