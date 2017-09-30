@@ -405,7 +405,7 @@ MOVES = [{
     "cat": "official",
     "name": "freezestrike",
     "long": "bs]ru:thisattack&freeze#flag@3-move",
-    "text": "(Magic) Destroy self at target location and Freeze enemy unit, making them unable to Move or Attack for 3 turns.",
+    "text": "(Magic) Destroy self at target location and Freeze enemy unit for 3 turns, making them unable to act.",
     "color": [107, 205, 253],
     "color3": [0, 255, 255],
     "content": "\u2738"
