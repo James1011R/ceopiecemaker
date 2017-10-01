@@ -1,10 +1,31 @@
 # James1011R/ceopiecemaker
-## PieceMakerClone: Community Edition
+## PieceMakerClone: Ultra Pretend Limited Edition
+### PieceMakerClone: Ultra Pretend Limited Edition is officially sold out. Go here pls: https://ceopiecemaker.github.io
 
-CEO PieceMakerClone: Community Edition up here for now https://james1011r.github.io/ceopiecemaker
 
-Original PieceMakerClone located at https://aplet123.github.io/ceopiecemaker
 
-Used to make chess pieces for Chess Evolved Online.
 
-And before you ask, I'm only the one holding on to piecemaker for now. The community "owns" this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CEO PieceMakerClone: Ultra Pretend Limited Edition put up here by scalpers in case the new PM breaks. https://james1011r.github.io/ceopiecemaker
