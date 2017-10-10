@@ -1170,7 +1170,7 @@ MOVES = [{
     "text": "(Magic) Lock enemy unit, making them unable to act or be displaced for 3 turns.",
     "color": [100, 100, 150],
     "color3": [0, 0, 0],
-    "content": "\u1f512",
+    "content": "\ud83d\udd12",
     "hide": true
 }, {
     "id": "b17",
@@ -1204,7 +1204,7 @@ MOVES = [{
     "name": "setpos",
     "long": "b]:move/attack",
     "text": "Teleport self to this empty location or attack target.",
-    "color": [0, 102, 0],
+    "color": [20, 60, 20],
     "hide": true
 }, {
     "id": "b21",
