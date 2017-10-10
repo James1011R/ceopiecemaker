@@ -564,8 +564,8 @@ MOVES = [{
     "long": "ps]ru:petrify#flag@3-move/summon@STONEPILLAR",
     "text": "(Magic) Create StonePillar in this empty location, or petrify enemy for 3 turns, making them unable to act.",
     "color": [94, 94, 94],
-    "color3": [25, 25, 25],
-    "content": "\u25af"
+    "color3": [59, 59, 59],
+    "content": "\u25ae"
 }, {
     "id": "0a",
     "cat": "variation",
@@ -1138,7 +1138,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "assassinate",
     "long": "bc]mz:move/(REMOVE)",
-    "text": "(Unstoppable) Move or Assassinate.",
+    "text": "(Unstoppable) Move or Assassinate, removing them from the game.",
     "color": [75, 0, 150],
     "color3": [0, 0, 0],
     "content": "\u2727",
@@ -1162,6 +1162,58 @@ MOVES = [{
     "color": [0, 80, 150],
     "color3": [0, 0, 0],
     "content": "\u2742",
+    "hide": true
+}, {
+    "id": "b16",
+    "cat": "ultrapretendlimitededition",
+    "name": "lock",
+    "text": "(Magic) Lock enemy unit, making them unable to act or be displaced for 3 turns.",
+    "color": [100, 100, 150],
+    "color3": [0, 0, 0],
+    "content": "\u1f512",
+    "hide": true
+}, {
+    "id": "b17",
+    "cat": "ultrapretendlimitededition",
+    "name": "dummypolymorph",
+    "text": "(Magic) Transform minion or champion into Dummy.",
+    "color": [255, 255, 0],
+    "color3": [0, 0, 0],
+    "content": "\uea00",
+    "hide": true
+}, {
+    "id": "b18",
+    "cat": "ultrapretendlimitededition",
+    "name": "deepstrike",
+    "text": "Exile self and mark location for return in 3 turns. If location is occupied upon return the occupant is annihilated.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\uea23",
+    "hide": true
+}, {
+    "id": "b19",
+    "cat": "ultrapretendlimitededition",
+    "name": "goto",
+    "long": "b]:move",
+    "text": "Teleport self to this empty location.",
+    "color": [102, 0, 102],
+    "hide": true
+}, {
+    "id": "b20",
+    "cat": "ultrapretendlimitededition",
+    "name": "setpos",
+    "long": "b]:move/attack",
+    "text": "Teleport self to this empty location or attack target.",
+    "color": [0, 102, 0],
+    "hide": true
+}, {
+    "id": "b21",
+    "cat": "ultrapretendlimitededition",
+    "name": "specialtykill",
+    "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\uea25",
     "hide": true
 }, {
     "id": "c1",
