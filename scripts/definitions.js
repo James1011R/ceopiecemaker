@@ -317,8 +317,8 @@ MOVES = [{
     "name": "portal",
     "long": "u]:Aset@pos=\\this",
     "text": "Teleport Ability Target to this empty location.",
-    "color": [155, 20, 208],
-    "color2": [255, 255, 255],
+    "color": [0, 0, 0],
+    "color2": [155, 20, 208],
     "content": "\u2609"
 }, {
     "id": "28",
@@ -703,6 +703,15 @@ MOVES = [{
     "content": "\u2609",
     "hide": true
 }, {
+    "id": "27b",
+    "cat": "variation",
+    "name": "targetswap",
+    "text": "(Magic) Target Unit is swapped with Ability Target.",
+    "color": [155, 20, 208],
+    "color2": [255, 255, 255],
+    "content": "\u2609\u{1f5d8}",
+    "hide": true
+}, {
     "id": "49a",
     "cat": "variation",
     "name": "magicpull",
@@ -979,7 +988,7 @@ MOVES = [{
     "long": "b]m(ALLYUNBLOCKABLE)n:move/attack",
     "text": "Move or Attack. Cannot be blocked by Ally units.",
     "color": [0, 0, 0],
-    "content": "\u274b",
+    "content": "\u25e0\u25e6",
     "hide": true
 }, {
     "id": "a7",
@@ -1170,7 +1179,7 @@ MOVES = [{
     "text": "(Magic) Lock enemy unit, making them unable to act or be displaced for 3 turns.",
     "color": [100, 100, 150],
     "color3": [0, 0, 0],
-    "content": "\ud83d\udd12",
+    "content": "\u{1f512}",
     "hide": true
 }, {
     "id": "b17",
@@ -1214,6 +1223,15 @@ MOVES = [{
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\uea25",
+    "hide": true
+}, {
+    "id": "b22",
+    "cat": "ultrapretendlimitededition",
+    "name": "bind",
+    "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\uec5c",
     "hide": true
 }, {
     "id": "c1",
@@ -1350,6 +1368,16 @@ MOVES = [{
     "text": "Custom action 16 (Double Click Menu Icon to Edit)",
     "color": [126, 126, 25],
     "content": "0",
+    "hide": true
+}, {
+    "id": "e",
+    "cat": "custom",
+    "name": "experimental",
+    "long": "nothing to see here",
+    "text": "Experimental Ability (Do not click!)",
+    "color": [255, 0, 0],
+    "color2": [NaN, NaN, NaN],
+    "content": "E",
     "hide": true
 }];
 
