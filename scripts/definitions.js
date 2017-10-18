@@ -592,7 +592,7 @@ MOVES = [{
     "content": "\ufe62",
     "hide": true
 }, {
-    "id": "15a",
+    "id": "9a",
     "cat": "variation",
     "name": "charmall",
     "long": "c]ru:*minion?charm#set@ally",
