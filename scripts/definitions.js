@@ -272,7 +272,7 @@ MOVES = [{
     "color": [0, 153, 0],
     "color2": [255, 255, 255],
     "color3": [0, 204, 0],
-    "content": "\2"
+    "content": "\ue902"
 }, {
     "id": "23",
     "cat": "official",
@@ -1240,8 +1240,9 @@ MOVES = [{
     "text": "(Ranged) Destroy target and freeze adjacent units perpendicular to target for 1 turn. Cannot target units immune to freeze.",
     "color": [107, 205, 253],
     "color2": [255, 255, 255],
-    "content": "\u2316"
-}. {
+    "content": "\u2316",
+    "hide": true
+}, {
     "id": "c1",
     "cat": "custom",
     "name": "custom1",
@@ -1386,6 +1387,15 @@ MOVES = [{
     "color": [255, 0, 0],
     "color2": [NaN, NaN, NaN],
     "content": "E",
+    "hide": true
+}, {
+    "id": "⭐",
+    "cat": "custom",
+    "name": "custommoonfox",
+    "long": "z]",
+    "text": "Really Super Experimental Ability (Do not click!)",
+    "color": [253, 117, 34],
+    "content": "\ue9fc",
     "hide": true
 }];
 
