@@ -272,7 +272,7 @@ MOVES = [{
     "color": [0, 153, 0],
     "color2": [255, 255, 255],
     "color3": [0, 204, 0],
-    "content": "\ue905"
+    "content": "\2"
 }, {
     "id": "23",
     "cat": "official",
@@ -364,7 +364,7 @@ MOVES = [{
     "text": "(Magic) Revive most recently fallen ally champion of value 2x this unit's value or less, and destroy this unit.",
     "color": [0, 0, 0],
     "color2": [58, 233, 93],
-    "content": "\uea41"
+    "content": "\uea42"
 }, {
     "id": "33",
     "cat": "official",
@@ -373,7 +373,7 @@ MOVES = [{
     "text": "[Pay 1]: (Trigger) Ally Status Effect: Instantly cure this target at the start of your turn, removing all negative status effects.",
     "color": [0, 0, 0],
     "color2": [58, 233, 93],
-    "content": "\uea42"
+    "content": "\uea43"
 }, {
     "id": "34",
     "cat": "official",
@@ -417,7 +417,7 @@ MOVES = [{
     "text": "(Unstoppable) Transform into Bat and fly to this location.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
-    "content": "\ue902"
+    "content": "\ue903"
 }, {
     "id": "39",
     "cat": "official",
@@ -480,7 +480,7 @@ MOVES = [{
     "text": "(Trigger) Ally Champion targeted by enemy ability or attack: this unit instantly swaps places with targeted champion.",
     "color": [0, 0, 153],
     "color2": [153, 255, 255],
-    "content": "\ue904"
+    "content": "\ue905"
 }, {
     "id": "46",
     "cat": "official",
@@ -499,7 +499,7 @@ MOVES = [{
     "text": "(Magic) Push enemy unit 1 space away from caster and freeze it for 2 turns.",
     "color": [0, 153, 255],
     "color2": [255, 255, 255],
-    "content": "\u1aa4"
+    "content": "\ue904"
 }, {
     "id": "48",
     "cat": "official",
@@ -509,7 +509,7 @@ MOVES = [{
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
-    "content": "\uEA5D"
+    "content": "\uea5e"
 }, {
     "id": "49",
     "cat": "official",
@@ -537,7 +537,7 @@ MOVES = [{
     "text": "(Magic) Destroy self and mark location with effect that occurs after 20 turns.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
-    "content": "\u27bc"
+    "content": "\ue906"
 }, {
     "id": "52",
     "cat": "official",
@@ -798,7 +798,7 @@ MOVES = [{
     "text": "(Magic) Target ally is teleported to Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
-    "content": "\u25ef\u25c7",
+    "content": "\u25ef\u25e6",
     "hide": true
 }, {
     "id": "43b",
@@ -834,11 +834,11 @@ MOVES = [{
     "id": "45a",
     "cat": "variation",
     "name": "meleeshieldall",
-    "long": "bt]:ally?targeted@(mn:attack)?+move?this+move?(mu:swap)",
-    "text": "(Trigger) Ally unit targeted by enemy normal attack: this unit instantly swaps places with targeted unit.",
+    "long": "bt]:ally?targeted@(m*:attack)?+move?this+move?(mu:swap)",
+    "text": "(Trigger) Ally unit targeted by enemy melee attack: this unit instantly swaps places with targeted unit.",
     "color": [153, 0, 0],
     "color2": [255, 158, 153],
-    "content": "\ue904\ufe62",
+    "content": "\ue905\ufe62",
     "hide": true
 }, {
     "id": "45b",
@@ -848,7 +848,7 @@ MOVES = [{
     "text": "(Trigger) Ally unit targeted by enemy Magic or Ranged ability: this unit instantly swaps places with targeted unit.",
     "color": [153, 78, 0],
     "color2": [255, 255, 153],
-    "content": "\ue904\ufe62",
+    "content": "\ue905\ufe62",
     "hide": true
 }, {
     "id": "45c",
@@ -858,7 +858,7 @@ MOVES = [{
     "text": "(Trigger) Ally unit targeted by enemy ability or attack: this unit instantly swaps places with targeted unit.",
     "color": [0, 0, 153],
     "color2": [153, 255, 255],
-    "content": "\ue904\ufe62",
+    "content": "\ue905\ufe62",
     "hide": true
 }, {
     "id": "45d",
@@ -868,7 +868,7 @@ MOVES = [{
     "text": "(Trigger) Ally Champion targeted by enemy Magic or Ranged ability: this unit instantly swaps places with targeted champion.",
     "color": [153, 78, 0],
     "color2": [255, 255, 153],
-    "content": "\ue904",
+    "content": "\ue905",
     "hide": true
 }, {
     "id": "48a",
@@ -879,7 +879,7 @@ MOVES = [{
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
-    "content": "\uEA14",
+    "content": "\uea14",
     "hide": true
 }, {
     "id": "52a",
@@ -949,7 +949,7 @@ MOVES = [{
     "long": "s]ru:(thispoison#flag@3&attack)&poison#flag@3&attack",
     "text": "(Magic) Poison self and enemy unit, destroying them in 3 turns.",
     "color": [0, 101, 24],
-    "content": "\uea26",
+    "content": "\uea27",
     "hide": true
 }, {
     "id": "a3",
@@ -1179,7 +1179,7 @@ MOVES = [{
     "text": "(Magic) Lock enemy unit, making them unable to act or be displaced for 3 turns.",
     "color": [100, 100, 150],
     "color3": [0, 0, 0],
-    "content": "\u{1f512}",
+    "content": "\u0311\u25fd",
     "hide": true
 }, {
     "id": "b17",
@@ -1197,7 +1197,7 @@ MOVES = [{
     "text": "Exile self and mark location for return in 3 turns. If location is occupied upon return the occupant is annihilated.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
-    "content": "\uea23",
+    "content": "\uec24",
     "hide": true
 }, {
     "id": "b19",
@@ -1222,7 +1222,7 @@ MOVES = [{
     "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
-    "content": "\uea25",
+    "content": "\uea26",
     "hide": true
 }, {
     "id": "b22",
@@ -1231,9 +1231,17 @@ MOVES = [{
     "text": "Bind enemy unit, removing all of its abilities on corresponding ability targets.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
-    "content": "\uec5c",
+    "content": "\uec5d",
     "hide": true
 }, {
+    "id": "b23",
+    "cat": "ultrapretendlimitededition",
+    "name": "freezeshot",
+    "text": "(Ranged) Destroy target and freeze adjacent units perpendicular to target for 1 turn. Cannot target units immune to freeze.",
+    "color": [107, 205, 253],
+    "color2": [255, 255, 255],
+    "content": "\u2316"
+}. {
     "id": "c1",
     "cat": "custom",
     "name": "custom1",
@@ -1372,7 +1380,7 @@ MOVES = [{
 }, {
     "id": "e",
     "cat": "custom",
-    "name": "experimental",
+    "name": "customexperimental",
     "long": "z]",
     "text": "Experimental Ability (Do not click!)",
     "color": [255, 0, 0],
