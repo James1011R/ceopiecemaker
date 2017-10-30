@@ -1257,7 +1257,7 @@ MOVES = [{
     "id": "b24",
     "cat": "ultrapretendlimitededition",
     "name": "invigorate",
-    "text": "(Ranged) Destroy target and freeze adjacent unize.",
+    "text": "(Magic) Invigorate ally unit, making them able to act regardless of negative status effects for 2 turns.",
     "color": [0, 0, 0],
     "color2": [58, 233, 93],
     "content": "\u274b",
