@@ -319,7 +319,7 @@ MOVES = [{
     "text": "Teleport Ability Target to this empty location.",
     "color": [0, 0, 0],
     "color2": [233, 155, 255],
-    "content": "\u2609"
+    "content": "\u25e6"
 }, {
     "id": "28",
     "cat": "official",
@@ -903,7 +903,7 @@ MOVES = [{
     "color": [19, 121, 153],
     "hide": true
 }, {
-    "id": "32b",
+    "id": "4a",
     "cat": "limbo",
     "name": "warp",
     "long": "b]mz:move/attack",
@@ -911,7 +911,7 @@ MOVES = [{
     "color": [200, 151, 24],
     "hide": true
 }, {
-    "id": "33b",
+    "id": "6a",
     "cat": "limbo",
     "name": "fly",
     "long": "b]mz:move",
@@ -919,7 +919,7 @@ MOVES = [{
     "color": [0, 255, 200],
     "hide": true
 }, {
-    "id": "34b",
+    "id": "5a",
     "cat": "limbo",
     "name": "warpswap",
     "long": "b]mz:move/attack/swap",
@@ -927,13 +927,22 @@ MOVES = [{
     "color": [160, 180, 255],
     "hide": true
 }, {
-    "id": "35b",
+    "id": "7a",
     "cat": "limbo",
     "name": "moonflare",
     "long": "b]rz:attack",
     "text": "(Invocation) Destroy target.",
     "color": [34, 117, 253],
     "content": "\u263e",
+    "hide": true
+}, {
+    "id": "53a",
+    "cat": "limbo",
+    "name": "warpattack",
+    "long": "b]mz:attack",
+    "text": "(Unstoppable) Attack only.",
+    "color": [127, 0, 0],
+    "color2": [255, 0, 0],
     "hide": true
 }, {
     "id": "a1",
