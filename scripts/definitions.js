@@ -318,7 +318,7 @@ MOVES = [{
     "long": "u]:Aset@pos=\\this",
     "text": "Teleport Ability Target to this empty location.",
     "color": [0, 0, 0],
-    "color2": [155, 20, 208],
+    "color2": [233, 155, 255],
     "content": "\u2609"
 }, {
     "id": "28",
@@ -459,7 +459,7 @@ MOVES = [{
     "cat": "official",
     "name": "beacon",
     "long": "cu]ru:set@pos=Athis",
-    "text": "(Magic) Target unit is teleported to Ability Target.",
+    "text": "(Magic) Teleport unit to Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u25ef"
@@ -524,7 +524,7 @@ MOVES = [{
     "cat": "official",
     "name": "compel",
     "long": "s]rn:compel#flag&(COMPEL)",
-    "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of each turn, for 3 turns.",
+    "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
     "color": [204, 0, 153],
     "color2": [255, 255, 255],
     "color3": [255, 51, 255],
@@ -554,13 +554,12 @@ MOVES = [{
     "name": "jumpattack",
     "long": "b]mu:attack",
     "text": "(Unblockable) Attack only.",
-    "color": [243, 0, 0],
-    "color2": [173, 64, 64],
-    "hide": true
+    "color": [255, 0, 0],
+    "color2": [127, 0, 0]
 }, {
     "id": "54",
     "cat": "official",
-    "name": "earthmagic",
+    "name": "stone",
     "long": "ps]ru:petrify#flag@3-move/summon@STONEPILLAR",
     "text": "(Magic) Create StonePillar in this empty location, or petrify enemy for 3 turns, making them unable to act.",
     "color": [94, 94, 94],
@@ -572,7 +571,9 @@ MOVES = [{
     "name": "swap",
     "long": "b]mu:swap",
     "text": "(Unblockable) Swap places with ally.",
-    "color": [127, 108, 0],
+    "color": [127, 127, 127],
+    "color2": [255, 255, 255],
+    "content": "\u{1f5d8}",
     "hide": true
 }, {
     "id": "0b",
@@ -580,7 +581,7 @@ MOVES = [{
     "name": "swapenemy",
     "long": "b]mu:!ally?swap",
     "text": "(Unblockable) Swap places with enemy.",
-    "color": [208, 108, 108],
+    "color": [127, 0, 59],
     "hide": true
 }, {
     "id": "0c",
@@ -588,8 +589,7 @@ MOVES = [{
     "name": "swapall",
     "long": "b]mu:*ally?swap",
     "text": "(Unblockable) Swap places with unit.",
-    "color": [127, 108, 0],
-    "content": "\ufe62",
+    "color": [127, 105, 0],
     "hide": true
 }, {
     "id": "9a",
@@ -681,7 +681,8 @@ MOVES = [{
     "long": "bt]ru:start?attack",
     "text": "(Magic, Trigger) Enemy Unit: Instantly destroy this target at the start of your turn.",
     "color": [253, 117, 34],
-    "content": "\u25b3",
+    "color3": [127, 59, 17],
+    "content": "\uea15",
     "hide": true
 }, {
     "id": "25b",
@@ -690,7 +691,8 @@ MOVES = [{
     "long": "st]ru:start?attack#flag@1-move",
     "text": "(Magic, Trigger) Enemy Unit: Instantly freeze this target for 1 turn at the start of your turn.",
     "color": [107, 205, 253],
-    "content": "\u25bd",
+    "color3": [59, 108, 127],
+    "content": "\uea21",
     "hide": true
 }, {
     "id": "27a",
@@ -1241,6 +1243,15 @@ MOVES = [{
     "color": [107, 205, 253],
     "color2": [255, 255, 255],
     "content": "\u2316",
+    "hide": true
+}, {
+    "id": "b24",
+    "cat": "ultrapretendlimitededition",
+    "name": "invigorate",
+    "text": "(Ranged) Destroy target and freeze adjacent unize.",
+    "color": [0, 0, 0],
+    "color2": [58, 233, 93],
+    "content": "\u274b",
     "hide": true
 }, {
     "id": "c1",
