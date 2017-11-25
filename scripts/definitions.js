@@ -1228,7 +1228,7 @@ MOVES = [{
     "hide": true
 }, {
     "id": "b21",
-    "cat": "ultrapretendlimitededition",
+    "cat": "predux",
     "name": "specialtykill",
     "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
     "color": [0, 0, 0],
@@ -1237,7 +1237,7 @@ MOVES = [{
     "hide": true
 }, {
     "id": "b22",
-    "cat": "ultrapretendlimitededition",
+    "cat": "predux",
     "name": "bind",
     "text": "Bind enemy unit, removing all of its abilities on corresponding ability targets.",
     "color": [0, 0, 0],
@@ -1246,7 +1246,7 @@ MOVES = [{
     "hide": true
 }, {
     "id": "b23",
-    "cat": "ultrapretendlimitededition",
+    "cat": "predux",
     "name": "freezeshot",
     "text": "(Ranged) Destroy target and freeze adjacent units perpendicular to target for 1 turn. Cannot target units immune to freeze.",
     "color": [107, 205, 253],
@@ -1255,7 +1255,7 @@ MOVES = [{
     "hide": true
 }, {
     "id": "b24",
-    "cat": "ultrapretendlimitededition",
+    "cat": "predux",
     "name": "invigorate",
     "text": "(Magic) Invigorate ally unit, making them able to act regardless of negative status effects for 2 turns.",
     "color": [0, 0, 0],
@@ -1446,8 +1446,8 @@ PASSIVES = ["Does not block movement.",
 ];
 LABELS = {
     rank: ["Minion", "Champion", "Boss", "King"],
-    faction: ["Basic", "Clan", "Arcane", "Forest"],
-    rarity: ["Common", "Rare", "Epic", "Legendary"]
+    faction: ["Basic", "Clan", "Arcane", "Forest", "Unholy"],
+    rarity: ["Common", "Rare", "Epic", "Legendary", "Unique"]
 }
 LEVELS = ["base", "plus", "plusplus", "plusplusplus"];
 
@@ -1469,5 +1469,5 @@ TOOLTIPS = {
     do0: "Undo:\nUndo a Path.",
     do1: "Redo:\nRedo an undone Path.",
     do2: "Download:\nUseless.",
-    do3: "Clear:\nRemove all Paths. Cannot be undone.",
+    do3: "Clear:\nUndo all Paths. Cannot be removed.",
 };
