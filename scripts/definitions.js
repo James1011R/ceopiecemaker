@@ -570,7 +570,7 @@ MOVES = [{
     "cat": "official",
     "name": "meteor",
     "text": "[Pay 3]: (Magic) After 6 turns any unit in the marked location is destroyed and all adjacent units are pushed away 1 space.",
-    "color": [0, 0, 127],
+    "color": [127, 0, 0],
     "color2": [248, 131, 31],
     "color3": [0, 0, 0],
     "content": "\uea24"
@@ -1272,6 +1272,61 @@ MOVES = [{
     "content": "\u274b",
     "hide": true
 }, {
+    "id": "b25",
+    "cat": "predux",
+    "name": "agility",
+    "text": "(Trigger) At the end of your turn teleport to this empty location before returning to your previous position at the end of your opponent's turn.",
+    "color": [121, 19, 153],
+    "color2": [255, 255, 255],
+    "content": "\u25c7\uea14",
+    "hide": true
+}, {
+    "id": "b26",
+    "cat": "predux",
+    "name": "confuse",
+    "text": "(Magic) Confuse enemy unit for 3 turns, making them unable to target empty locations.",
+    "color": [160, 127, 253],
+    "content": "\ue904",
+    "hide": true
+}, {
+    "id": "b27",
+    "cat": "predux",
+    "name": "autominotaur",
+    "text": "(Trigger) Enemy King: Swap with target at the start of your turn.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "color3": [19, 121, 153],
+    "content": "\uec32",
+    "hide": true
+}, {
+    "id": "b28",
+    "cat": "predux",
+    "name": "morph",
+    "text": "(Magic) Transform self into most recently fallen unit of value X or less, where X is twice this unit's value.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "content": "\uea22",
+    "hide": true
+}, {
+    "id": "b29",
+    "cat": "predux",
+    "name": "finalblast",
+    "text": "(Invocation) Annihilate target, poison ally King for 3 turns, and lose this ability.",
+    "color": [200, 200, 200],
+    "color3": [127, 59, 17],
+    "content": "\u2728",
+    "hide": true
+}, {
+    "id": "b30",
+    "cat": "predux",
+    "name": "finalrespite",
+    "text": "(Magic) Enchant self and target ally for 2 turns and lose 5 value. If this unit reaches 0 value this ability can't be used.",
+    "color": [0, 102, 255],
+    "color2": [0, 0, 0],
+    "color3": [0, 255, 255],
+    "content": "\uea2a",
+    "hide": true
+}, {
     "id": "c1",
     "cat": "custom",
     "name": "custom1",
@@ -1425,6 +1480,14 @@ MOVES = [{
     "text": "Really Super Experimental Ability (Do not click!)",
     "color": [253, 117, 34],
     "content": "\ue9fc",
+    "hide": true
+}, {
+    "id": "UB1",
+    "cat": "ultrabeast",
+    "name": "nothingshield",
+    "text": "(Trigger) This unit targeted by enemy ability: this unit instantly swaps places with targeted champion.",
+    "color": [0, 0, 0],
+    "content": "\ue905",
     "hide": true
 }];
 
