@@ -431,8 +431,8 @@ MOVES = [{
     "id": "40",
     "cat": "official",
     "name": "thunder",
-    "long": "1m]:flag@4&(ru:attack)",
-    "text": "[Pay 1]: Mark location to be destroyed by Magic 4 turns after activating.",
+    "long": "1m]ru:flag@4&(ru:attack)",
+    "text": "[Pay 1]: (Magic) After 4 turns any unit in the marked location is destroyed.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u26a1"
@@ -534,7 +534,7 @@ MOVES = [{
     "cat": "official",
     "name": "butterflyeffect",
     "long": "bm]ru:thisattack&flag@20&(thissummon\!ally?ru:attack\ally?enchant#flag@2(ENCHANT))",
-    "text": "(Magic) Destroy self and mark location with effect that occurs after 20 turns.",
+    "text": "(Magic) Destroy self and mark location. After 20 turns destroy enemy unit in the marked location, enchant ally for 2 turns, or revive the caster into empty marked location.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\ue906"
@@ -565,6 +565,15 @@ MOVES = [{
     "color": [94, 94, 94],
     "color3": [59, 59, 59],
     "content": "\u25ae"
+}, {
+    "id": "55",
+    "cat": "official",
+    "name": "meteor",
+    "text": "[Pay 3]: (Magic) After 6 turns any unit in the marked location is destroyed and all adjacent units are pushed away 1 space.",
+    "color": [0, 0, 127],
+    "color2": [248, 131, 31],
+    "color3": [0, 0, 0],
+    "content": "\uea24"
 }, {
     "id": "0a",
     "cat": "variation",
