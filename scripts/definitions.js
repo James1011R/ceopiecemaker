@@ -1331,7 +1331,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom1",
     "long": "z]",
-    "text": "Custom action 1 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 1 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 25],
     "content": "1"
 }, {
@@ -1339,7 +1339,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom2",
     "long": "z]",
-    "text": "Custom action 2 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 2 (Double Click Menu Icon to Edit)",
     "color": [227, 126, 25],
     "content": "2"
 }, {
@@ -1347,7 +1347,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom3",
     "long": "z]",
-    "text": "Custom action 3 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 3 (Double Click Menu Icon to Edit)",
     "color": [227, 227, 25],
     "content": "3"
 }, {
@@ -1355,7 +1355,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom4",
     "long": "z]",
-    "text": "Custom action 4 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 4 (Double Click Menu Icon to Edit)",
     "color": [126, 227, 25],
     "content": "4"
 }, {
@@ -1363,7 +1363,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom5",
     "long": "z]",
-    "text": "Custom action 5 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 5 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 25],
     "content": "5"
 }, {
@@ -1371,7 +1371,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom6",
     "long": "z]",
-    "text": "Custom action 6 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 6 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 126],
     "content": "6"
 }, {
@@ -1379,7 +1379,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom7",
     "long": "z]",
-    "text": "Custom action 7 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 7 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 227],
     "content": "7"
 }, {
@@ -1387,7 +1387,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom8",
     "long": "z]",
-    "text": "Custom action 8 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 8 (Double Click Menu Icon to Edit)",
     "color": [25, 126, 227],
     "content": "8"
 }, {
@@ -1395,7 +1395,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom9",
     "long": "z]",
-    "text": "Custom action 9 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 9 (Double Click Menu Icon to Edit)",
     "color": [25, 25, 227],
     "content": "9",
     "hide": true
@@ -1404,7 +1404,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom10",
     "long": "z]",
-    "text": "Custom action 10 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 10 (Double Click Menu Icon to Edit)",
     "color": [126, 25, 227],
     "content": "A",
     "hide": true
@@ -1413,7 +1413,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom11",
     "long": "z]",
-    "text": "Custom action 11 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 11 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 227],
     "content": "B",
     "hide": true
@@ -1422,7 +1422,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom12",
     "long": "z]",
-    "text": "Custom action 12 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 12 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 126],
     "content": "C",
     "hide": true
@@ -1431,7 +1431,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom13",
     "long": "z]",
-    "text": "Custom action 13 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 13 (Double Click Menu Icon to Edit)",
     "color": [25, 25, 25],
     "content": "D",
     "hide": true
@@ -1440,7 +1440,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom14",
     "long": "z]",
-    "text": "Custom action 14 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 14 (Double Click Menu Icon to Edit)",
     "color": [126, 126, 126],
     "content": "E",
     "hide": true
@@ -1449,7 +1449,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom15",
     "long": "z]",
-    "text": "Custom action 15 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 15 (Double Click Menu Icon to Edit)",
     "color": [227, 227, 227],
     "content": "F",
     "hide": true
@@ -1458,7 +1458,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom16",
     "long": "z]",
-    "text": "Custom action 16 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 16 (Double Click Menu Icon to Edit)",
     "color": [126, 126, 25],
     "content": "0",
     "hide": true
