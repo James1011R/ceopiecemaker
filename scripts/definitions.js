@@ -12,7 +12,7 @@
  * Pay Cat Bracket Description 
  **
  ** Category Explanation:
- * a: Spell Target. Used for explanation of other spells.
+ * a: Ability Target. Used for explanation of other abilities.
  * b: Basic. Involves one turn, one/two target life/death, or caster moving.
  * c: Complex. Involves one turn, one/two target attribute change.
  *
@@ -25,7 +25,7 @@
  * u: Indirect. Involves an indirect target.
  * v: Passive. Involves passive actions
  *
- * z: Customs. Should not be sorted with the spells.
+ * z: Customs. Should not be sorted with the abilities.
  **
  ** Bracket Notation Explanation:
  * m/r: Melee / Magic (ranged)
@@ -47,7 +47,7 @@ LDE = ["move", "attack", "swap", "transform", "summon", "set", "flag", "deflag",
 //       flag@(number)&(action) refers to (action) opponent after (number) turns
 // Descriptors (Extra level):
 LEE = ["charm", "poison", "freeze", "petrify", "push", "sorcerize"];
-// These are extra spell names, but due to it being open-ended to changes (duration)
+// These are extra ability names, but due to it being open-ended to changes (duration)
 // They have to be specified every time, with the above descriptors.
 // Properties:
 LPE = ["minion", "type", "tier", "ally", "value", "startpos", "pos"];
@@ -78,7 +78,7 @@ LTE = ["meleedeath", "death", "start", "end", "status", "targeted"];
 || !  not
 || * regardless of
 || \  make (referring to target)
-|| A  make (referring to spell target)
+|| A  make (referring to ability target)
 || /@ for each
 */
 
@@ -268,7 +268,7 @@ MOVES = [{
     "cat": "official",
     "name": "slime",
     "long": "pt]:meleedeath?this+move?summon@SLIME",
-    "text": "(Trigger) On Melee Death: Summon ally Slime into this empty location. If this unit is Frozen or Petrified this spell cannot activate.",
+    "text": "(Trigger) On Melee Death: Summon ally Slime into this empty location. If this unit is Frozen or Petrified this ability cannot activate.",
     "color": [0, 153, 0],
     "color2": [255, 255, 255],
     "color3": [0, 204, 0],
@@ -278,7 +278,7 @@ MOVES = [{
     "cat": "official",
     "name": "moon",
     "long": "pt]:meleedeath?summon@this&set@value-=10",
-    "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 10. If this unit's value is less than 10 this spell cannot activate.",
+    "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 10. If this unit's value is less than 10 this ability cannot activate.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u263d"
@@ -305,9 +305,9 @@ MOVES = [{
 }, {
     "id": "26",
     "cat": "official",
-    "name": "spelltarget",
+    "name": "abilitytarget",
     "long": "a]",
-    "text": "Spell Target.",
+    "text": "Ability Target.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u2609"
@@ -316,7 +316,7 @@ MOVES = [{
     "cat": "official",
     "name": "portal",
     "long": "u]:Aset@pos=\\this",
-    "text": "Teleport Spell Target to this empty location.",
+    "text": "Teleport Ability Target to this empty location.",
     "color": [0, 0, 0],
     "color2": [233, 155, 255],
     "content": "\u25e6"
@@ -388,7 +388,7 @@ MOVES = [{
     "cat": "official",
     "name": "moveattackblock",
     "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mn:move/attack)",
-    "text": "(Passive) Block one normal attack from this location, and lose this spell. \n(Active) Move or Attack.",
+    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.",
     "color": [0, 0, 0],
     "color3": [255, 255, 255],
     "content": "\u2219"
@@ -423,7 +423,7 @@ MOVES = [{
     "cat": "official",
     "name": "castle",
     "long": "c]:ally?!minion?swap&(MOVETOGETHER)&(LOSEABILITY)",
-    "text": "Swap places with ally Champion, then move this unit and Champion together, and lose this spell.",
+    "text": "Swap places with ally Champion, then move this unit and Champion together, and lose this ability.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u2656"
@@ -459,7 +459,7 @@ MOVES = [{
     "cat": "official",
     "name": "beacon",
     "long": "cu]ru:set@pos=Athis",
-    "text": "(Magic) Teleport unit to Spell Target.",
+    "text": "(Magic) Teleport unit to Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u25ef"
@@ -468,7 +468,7 @@ MOVES = [{
     "cat": "official",
     "name": "gravity",
     "long": "1cu]ru:\\(mn:move@A-(AWAY))",
-    "text": "[Pay 1]: (Magic) Move target unit toward Spell Target.",
+    "text": "[Pay 1]: (Magic) Move target unit toward Ability Target.",
     "color": [0, 63, 255],
     "color2": [255, 255, 255],
     "content": "\u25ef"
@@ -477,7 +477,7 @@ MOVES = [{
     "cat": "official",
     "name": "omnishield",
     "long": "bt]:ally?(CHAMPION)?targeted?+move?this+move?(mu:swap)",
-    "text": "(Trigger) Ally Champion targeted by enemy spell or attack: this unit instantly swaps places with targeted champion.",
+    "text": "(Trigger) Ally Champion targeted by enemy ability or attack: this unit instantly swaps places with targeted champion.",
     "color": [0, 0, 153],
     "color2": [153, 255, 255],
     "content": "\ue905"
@@ -524,7 +524,7 @@ MOVES = [{
     "cat": "official",
     "name": "compel",
     "long": "s]rn:compel#flag&(COMPEL)",
-    "text": "(Ranged) Compel enemy unit, making them move in the direction of this spell at the start of their turn, for 3 turns.",
+    "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
     "color": [204, 0, 153],
     "color2": [255, 255, 255],
     "color3": [255, 51, 255],
@@ -677,7 +677,7 @@ MOVES = [{
     "cat": "variation",
     "name": "omnienchant",
     "long": "3s]ru:ally?enchant#flag@2(ENHCANT)@(**:attack)",
-    "text": "[Pay 3]: (Magic) Enchant ally, making them immune to enemy spells or attacks for 2 turns.",
+    "text": "[Pay 3]: (Magic) Enchant ally, making them immune to enemy abilities or attacks for 2 turns.",
     "color": [208, 208, 127],
     "color2": [0, 0, 0],
     "color3": [255, 255, 255],
@@ -708,7 +708,7 @@ MOVES = [{
     "cat": "variation",
     "name": "magicportal",
     "long": "pu]ru:Aset@pos=\\this",
-    "text": "(Magic) Spell Target is teleported to this empty location.",
+    "text": "(Magic) Ability Target is teleported to this empty location.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u2609",
@@ -717,7 +717,7 @@ MOVES = [{
     "id": "27b",
     "cat": "variation",
     "name": "targetswap",
-    "text": "(Magic) Target Unit is swapped with Spell Target.",
+    "text": "(Magic) Target Unit is swapped with Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u2609\u{1f5d8}",
@@ -767,7 +767,7 @@ MOVES = [{
     "cat": "variation",
     "name": "moveblock",
     "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mn:move)",
-    "text": "(Passive) Block one melee attack from this location, and lose this spell. \n(Active) Move only.",
+    "text": "(Passive) Block one melee attack from this location, and lose this ability. \n(Active) Move only.",
     "color": [0, 0, 255],
     "color3": [255, 255, 255],
     "content": "\u2219",
@@ -777,7 +777,7 @@ MOVES = [{
     "cat": "variation",
     "name": "rangedblock",
     "long": "bv]:block@(rn:attack)&(LOSEABILTY)/(mn:move/attack)",
-    "text": "(Passive) Block one ranged destroy from this location, and lose this spell. \n(Active) Move or Attack.",
+    "text": "(Passive) Block one ranged destroy from this location, and lose this ability. \n(Active) Move or Attack.",
     "color": [0, 0, 0],
     "color3": [127, 255, 127],
     "content": "\u2219",
@@ -806,7 +806,7 @@ MOVES = [{
     "cat": "variation",
     "name": "beaconally",
     "long": "cu]ru:set@pos=Athis",
-    "text": "(Magic) Target ally is teleported to Spell Target.",
+    "text": "(Magic) Target ally is teleported to Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u25ef\u25e6",
@@ -816,7 +816,7 @@ MOVES = [{
     "cat": "variation",
     "name": "rangedbeacon",
     "long": "cu]rn:set@pos=Athis",
-    "text": "(Ranged) Target unit is teleported to Spell Target.",
+    "text": "(Ranged) Target unit is teleported to Ability Target.",
     "color": [155, 20, 208],
     "color2": [255, 255, 255],
     "content": "\u2316",
@@ -826,7 +826,7 @@ MOVES = [{
     "cat": "variation",
     "name": "antigravity",
     "long": "1cu]ru:\\(mn:Amove@\\this)",
-    "text": "[Pay 1]: (Magic) Spell Target is moved to this unblocked empty space.",
+    "text": "[Pay 1]: (Magic) Ability Target is moved to this unblocked empty space.",
     "color": [0, 63, 255],
     "color2": [255, 255, 255],
     "content": "\u25cc",
@@ -836,7 +836,7 @@ MOVES = [{
     "cat": "variation",
     "name": "gravityfreeze",
     "long": "1cu]ru:\\(mn:move@A-(AWAY))&freeze#flag@3-move",
-    "text": "[Pay 2]: (Magic) Move target unit in the direction of Spell Target until blocked or Spell Target is reached, then freeze target for 1 turn.",
+    "text": "[Pay 2]: (Magic) Move target unit in the direction of Ability Target until blocked or Ability Target is reached, then freeze target for 1 turn.",
     "color": [0, 127, 255],
     "color2": [255, 255, 255],
     "content": "\u25ef",
@@ -856,7 +856,7 @@ MOVES = [{
     "cat": "variation",
     "name": "spellshieldall",
     "long": "bt]:ally?targeted@(r*:*)?+move?this+move?(mu:swap)",
-    "text": "(Trigger) Ally unit targeted by enemy Magic or Ranged spell: this unit instantly swaps places with targeted unit.",
+    "text": "(Trigger) Ally unit targeted by enemy Magic or Ranged ability: this unit instantly swaps places with targeted unit.",
     "color": [153, 78, 0],
     "color2": [255, 255, 153],
     "content": "\ue905\ufe62",
@@ -866,7 +866,7 @@ MOVES = [{
     "cat": "variation",
     "name": "omnishieldall",
     "long": "bt]:ally?targeted?+move?this+move?(mu:swap)",
-    "text": "(Trigger) Ally unit targeted by enemy spell or attack: this unit instantly swaps places with targeted unit.",
+    "text": "(Trigger) Ally unit targeted by enemy ability or attack: this unit instantly swaps places with targeted unit.",
     "color": [0, 0, 153],
     "color2": [153, 255, 255],
     "content": "\ue905\ufe62",
@@ -876,7 +876,7 @@ MOVES = [{
     "cat": "variation",
     "name": "spellshield",
     "long": "bt]:ally?(CHAMPION)?targeted@(r*:*)?+move?this+move?(mu:swap)",
-    "text": "(Trigger) Ally Champion targeted by enemy Magic or Ranged spell: this unit instantly swaps places with targeted champion.",
+    "text": "(Trigger) Ally Champion targeted by enemy Magic or Ranged ability: this unit instantly swaps places with targeted champion.",
     "color": [153, 78, 0],
     "color2": [255, 255, 153],
     "content": "\ue905",
@@ -886,7 +886,7 @@ MOVES = [{
     "cat": "variation",
     "name": "wisp",
     "long": "t]:targeted:(REFLECT)",
-    "text": "(Passive) On Target from this location: Reflect spell.",
+    "text": "(Passive) On Target from this location: Reflect ability.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [255, 0, 0],
@@ -994,9 +994,9 @@ MOVES = [{
 }, {
     "id": "a5",
     "cat": "adoption",
-    "name": "replacespelltarget",
+    "name": "replaceabilitytarget",
     "long": "m]:(REPLACEABILITYTARGET)",
-    "text": "(Active) Remove this unit's other Spell Targets, then this location becomes this unit's Spell Target.",
+    "text": "(Active) Remove this unit's other Ability Targets, then this location becomes this unit's Ability Target.",
     "color": [0, 0, 0],
     "color2": [127, 127, 255],
     "content": "\u2609",
@@ -1106,7 +1106,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "protosorcerdestroy",
     "long": "cs]ru:sorcerize#flag@3(t]:targeted?block@(**:*)&thisattack)",
-    "text": "(Magic) Weaken target, causing them to be destroyed by any spell for 3 turns.",
+    "text": "(Magic) Weaken target, causing them to be destroyed by any ability for 3 turns.",
     "color": [0, 0, 255],
     "color2": [0, 0, 0],
     "content": "\uffec",
@@ -1126,7 +1126,7 @@ MOVES = [{
     "cat": "ultrapretendlimitededition",
     "name": "omniblock",
     "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
-    "text": "(Passive) Block one attack or spell from this location, and lose this spell. \n(Active) Move or Attack.",
+    "text": "(Passive) Block one attack or ability from this location, and lose this ability. \n(Active) Move or Attack.",
     "color": [0, 0, 0],
     "color3": [255, 255, 0],
     "content": "\u2219",
@@ -1239,7 +1239,7 @@ MOVES = [{
     "id": "b21",
     "cat": "predux",
     "name": "specialtykill",
-    "text": "(Magic) Enemy unit loses all spells that aren’t a melee move or melee attack.",
+    "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\uea26",
@@ -1248,7 +1248,7 @@ MOVES = [{
     "id": "b22",
     "cat": "predux",
     "name": "bind",
-    "text": "Bind enemy unit, removing all of its spells on corresponding spell targets.",
+    "text": "Bind enemy unit, removing all of its abilities on corresponding ability targets.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\uec5d",
@@ -1311,7 +1311,7 @@ MOVES = [{
     "id": "b29",
     "cat": "predux",
     "name": "finalblast",
-    "text": "(Invocation) Annihilate target, poison ally King for 3 turns, and lose this spell.",
+    "text": "(Invocation) Annihilate target, poison ally King for 3 turns, and lose this ability.",
     "color": [200, 200, 200],
     "color3": [127, 59, 17],
     "content": "\u2728",
@@ -1320,7 +1320,7 @@ MOVES = [{
     "id": "b30",
     "cat": "predux",
     "name": "finalrespite",
-    "text": "(Magic) Enchant self and target ally for 2 turns and lose 5 value. If this unit reaches 0 value this spell can't be used.",
+    "text": "(Magic) Enchant self and target ally for 2 turns and lose 5 value. If this unit reaches 0 value this ability can't be used.",
     "color": [0, 102, 255],
     "color2": [0, 0, 0],
     "color3": [0, 255, 255],
@@ -1331,7 +1331,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom1",
     "long": "z]",
-    "text": "Custom spell 1 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 1 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 25],
     "content": "1"
 }, {
@@ -1339,7 +1339,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom2",
     "long": "z]",
-    "text": "Custom spell 2 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 2 (Double Click Menu Icon to Edit)",
     "color": [227, 126, 25],
     "content": "2"
 }, {
@@ -1347,7 +1347,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom3",
     "long": "z]",
-    "text": "Custom spell 3 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 3 (Double Click Menu Icon to Edit)",
     "color": [227, 227, 25],
     "content": "3"
 }, {
@@ -1355,7 +1355,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom4",
     "long": "z]",
-    "text": "Custom spell 4 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 4 (Double Click Menu Icon to Edit)",
     "color": [126, 227, 25],
     "content": "4"
 }, {
@@ -1363,7 +1363,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom5",
     "long": "z]",
-    "text": "Custom spell 5 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 5 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 25],
     "content": "5"
 }, {
@@ -1371,7 +1371,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom6",
     "long": "z]",
-    "text": "Custom spell 6 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 6 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 126],
     "content": "6"
 }, {
@@ -1379,7 +1379,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom7",
     "long": "z]",
-    "text": "Custom spell 7 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 7 (Double Click Menu Icon to Edit)",
     "color": [25, 227, 227],
     "content": "7"
 }, {
@@ -1387,7 +1387,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom8",
     "long": "z]",
-    "text": "Custom spell 8 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 8 (Double Click Menu Icon to Edit)",
     "color": [25, 126, 227],
     "content": "8"
 }, {
@@ -1395,7 +1395,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom9",
     "long": "z]",
-    "text": "Custom spell 9 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 9 (Double Click Menu Icon to Edit)",
     "color": [25, 25, 227],
     "content": "9",
     "hide": true
@@ -1404,7 +1404,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom10",
     "long": "z]",
-    "text": "Custom spell 10 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 10 (Double Click Menu Icon to Edit)",
     "color": [126, 25, 227],
     "content": "A",
     "hide": true
@@ -1413,7 +1413,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom11",
     "long": "z]",
-    "text": "Custom spell 11 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 11 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 227],
     "content": "B",
     "hide": true
@@ -1422,7 +1422,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom12",
     "long": "z]",
-    "text": "Custom spell 12 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 12 (Double Click Menu Icon to Edit)",
     "color": [227, 25, 126],
     "content": "C",
     "hide": true
@@ -1431,7 +1431,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom13",
     "long": "z]",
-    "text": "Custom spell 13 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 13 (Double Click Menu Icon to Edit)",
     "color": [25, 25, 25],
     "content": "D",
     "hide": true
@@ -1440,7 +1440,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom14",
     "long": "z]",
-    "text": "Custom spell 14 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 14 (Double Click Menu Icon to Edit)",
     "color": [126, 126, 126],
     "content": "E",
     "hide": true
@@ -1449,7 +1449,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom15",
     "long": "z]",
-    "text": "Custom spell 15 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 15 (Double Click Menu Icon to Edit)",
     "color": [227, 227, 227],
     "content": "F",
     "hide": true
@@ -1458,7 +1458,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custom16",
     "long": "z]",
-    "text": "Custom spell 16 (Double Click Menu Icon to Edit)",
+    "text": "Custom ability 16 (Double Click Menu Icon to Edit)",
     "color": [126, 126, 25],
     "content": "0",
     "hide": true
@@ -1467,7 +1467,7 @@ MOVES = [{
     "cat": "custom",
     "name": "customexperimental",
     "long": "z]",
-    "text": "Experimental Spell (Do not click!)",
+    "text": "Experimental Ability (Do not click!)",
     "color": [255, 0, 0],
     "color2": [NaN, NaN, NaN],
     "content": "E",
@@ -1477,7 +1477,7 @@ MOVES = [{
     "cat": "custom",
     "name": "custommoonfox",
     "long": "z]",
-    "text": "Really Super Experimental Spell (Do not click!)",
+    "text": "Really Super Experimental Ability (Do not click!)",
     "color": [253, 117, 34],
     "content": "\ue9fc",
     "hide": true
@@ -1485,14 +1485,14 @@ MOVES = [{
     "id": "UB1",
     "cat": "ultrabeast",
     "name": "nothingshield",
-    "text": "(Trigger) This unit targeted by enemy spell: this unit instantly swaps places with targeted champion.",
+    "text": "(Trigger) This unit targeted by enemy ability: this unit instantly swaps places with targeted champion.",
     "color": [0, 0, 0],
     "content": "\ue905",
     "hide": true
 }];
 
 /* Self reminder
-\\ when creating an spell of slightly different spell, prefer these changes:
+\\ when creating an ability of slightly different ability, prefer these changes:
 \\ "\ufe62" Targets all
 \\ "\u22c6" Magic
 \\ "\u2295" Ranged
@@ -1514,7 +1514,7 @@ PASSIVES = ["Does not block movement.",
     "On Death: ",
     "On Kill: ",
     "On Melee Death: ",
-    "An enemy unit that targets this unit with any attack or spell is "
+    "An enemy unit that targets this unit with any attack or ability is "
 ];
 LABELS = {
     rank: ["Minion", "Champion", "Boss", "King"],
