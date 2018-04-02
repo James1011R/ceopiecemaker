@@ -8,7 +8,7 @@ if (window.location.search && URLSearchParams) {
             MOVES.push({
                 "name": "custom" + i,
                 "id": "c" + i,
-                "text": "Custom spell " + i + " (Double Click Menu Icon to Edit)",
+                "text": "Custom ability " + i + " (Double Click Menu Icon to Edit)",
                 "color": [108, 108, 25],
                 "content": "0"
             });
