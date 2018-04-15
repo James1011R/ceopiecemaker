@@ -1587,7 +1587,6 @@ TOOLTIPS = {
     ts5: "Pen Size 50:\nWhy do you not listen",
     ts6: "Pen Size -3:\nI don't see how this could possibly work",
     ts7: "Pen Size 0:\nUseless",
-    tf-1: "how are you seeing this o_o",
     tf0: "Coloring of the base",
     tf1: "Coloring of the middle part (what do you call those? :v)",
     tf2: "Coloring of the \"head\" part",
