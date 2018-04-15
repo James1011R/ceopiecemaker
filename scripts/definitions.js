@@ -1488,6 +1488,61 @@ MOVES = [{
     "text": "(Trigger) This unit targeted by enemy ability: this unit instantly swaps places with targeted champion.",
     "color": [0, 0, 0],
     "content": "\ue905",
+    "hide": true},
+}, {
+    "id": "RG1",
+    "cat": "custom",
+    "name": "customrandomgen1",
+    "long": "z]",
+    "text": "Randomly Generated Ability 1",
+    "color": [191, 164, 228],
+    "color2": [15, 23, 182],
+    "color3": [185, 130, 199],
+    "content": "\u7082",
+    "hide": true
+}, {
+    "id": "RG2",
+    "cat": "custom",
+    "name": "customrandomgen2",
+    "long": "z]",
+    "text": "Randomly Generated Ability 2",
+    "color": [50, 43, 187],
+    "color2": [168, 246, 156],
+    "color3": [87, 200, 219],
+    "content": "\uc3ef",
+    "hide": true
+}, {
+    "id": "RG3",
+    "cat": "custom",
+    "name": "customrandomgen3",
+    "long": "z]",
+    "text": "Randomly Generated Ability 3",
+    "color": [155, 123, 38],
+    "color2": [0, 120, 21],
+    "color3": [165, 244, 91],
+    "content": "\u0182",
+    "hide": true
+}, {
+    "id": "RG4",
+    "cat": "custom",
+    "name": "customrandomgen4",
+    "long": "z]",
+    "text": "Randomly Generated Ability 4",
+    "color": [92, 169, 190],
+    "color2": [147, 243, 23],
+    "color3": [46, 87, 65],
+    "content": "\u201d",
+    "hide": true
+}, {
+    "id": "RG5",
+    "cat": "custom",
+    "name": "customrandomgen5",
+    "long": "z]",
+    "text": "Randomly Generated Ability 5",
+    "color": [232, 10, 199],
+    "color2": [28, 63, 6],
+    "color3": [223, 95, 135],
+    "content": "\u03f8",
     "hide": true
 }];
 
@@ -1528,6 +1583,11 @@ TOOLTIPS = {
     ts1: "Pen Size 3",
     ts2: "Pen Size 5",
     ts3: "Pen Size 10:\nI don't see a use of this outside erasers tbh",
+    ts4: "Pen Size 1:\nSure, if you like precision",
+    ts5: "Pen Size 50:\nWhy do you not listen",
+    ts6: "Pen Size -3:\nI don't see how this could possibly work",
+    ts7: "Pen Size 0:\nUseless",
+    tf-1: "how are you seeing this o_o",
     tf0: "Coloring of the base",
     tf1: "Coloring of the middle part (what do you call those? :v)",
     tf2: "Coloring of the \"head\" part",
