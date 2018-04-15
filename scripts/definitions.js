@@ -1488,7 +1488,7 @@ MOVES = [{
     "text": "(Trigger) This unit targeted by enemy ability: this unit instantly swaps places with targeted champion.",
     "color": [0, 0, 0],
     "content": "\ue905",
-    "hide": true},
+    "hide": true
 }, {
     "id": "RG1",
     "cat": "custom",
