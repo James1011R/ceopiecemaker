@@ -579,9 +579,8 @@ MOVES = [{
     "cat": "official",
     "name": "pathy",
     "text": "(Path) Move or Attack.",
-    "color": [127, 0, 0],
-    "color2": [248, 131, 31],
-    "color3": [0, 0, 0],
+    "color": [0, 0, 0],
+    "color3": [255, 0, 0],
     "content": "\u007c",
     "hide": true
 }, {
