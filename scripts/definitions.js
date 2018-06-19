@@ -575,6 +575,106 @@ MOVES = [{
     "color3": [0, 0, 0],
     "content": "\uea24"
 }, {
+    "id": "56",
+    "cat": "official",
+    "name": "pathy",
+    "text": "(Path) Move or Attack.",
+    "color": [127, 0, 0],
+    "color2": [248, 131, 31],
+    "color3": [0, 0, 0],
+    "content": "\u007c",
+    "hide": true
+}, {
+    "id": "57",
+    "cat": "official",
+    "name": "pathx",
+    "text": "(Path) Move or Attack.",
+    "color": [0, 0, 0],
+    "color3": [255, 0, 0],
+    "content": "\u2500",
+    "hide": true
+}, {
+    "id": "58",
+    "cat": "official",
+    "name": "pathp",
+    "text": "(Path) Move or Attack.",
+    "color": [0, 0, 0],
+    "color3": [255, 0, 0],
+    "content": "\u002f",
+    "hide": true
+}, {
+    "id": "59",
+    "cat": "official",
+    "name": "pathn",
+    "text": "(Path) Move or Attack.",
+    "color": [0, 0, 0],
+    "color3": [255, 0, 0],
+    "content": "\u005c",
+    "hide": true
+}, {
+    "id": "60",
+    "cat": "official",
+    "name": "leap",
+    "text": "Move or Leap-Attack.",
+    "color": [0, 0, 150],
+    "color2": [0, 0, 255],
+    "color3": [255, 0, 0],
+    "content": "\u2219"
+}, {
+    "id": "61",
+    "cat": "official",
+    "name": "pathattacky",
+    "text": "(Path) Attack only.",
+    "color": [0, 0, 0],
+    "color2": [200, 50, 50],
+    "color3": [0, 0, 0],
+    "content": "\u007c"
+}, {
+    "id": "62",
+    "cat": "official",
+    "name": "pathattackx",
+    "text": "(Path) Attack only.",
+    "color": [0, 0, 0],
+    "color2": [200, 50, 50],
+    "color3": [0, 0, 0],
+    "content": "\u2500"
+}, {
+    "id": "63",
+    "cat": "official",
+    "name": "pathattackp",
+    "text": "(Path) Attack only.",
+    "color": [0, 0, 0],
+    "color2": [200, 50, 50],
+    "color3": [0, 0, 0],
+    "content": "\u002f"
+}, {
+    "id": "64",
+    "cat": "official",
+    "name": "pathattackn",
+    "text": "(Path) Attack only.",
+    "color": [0, 0, 0],
+    "color2": [200, 50, 50],
+    "color3": [0, 0, 0],
+    "content": "\u005c"
+}, {
+    "id": "65",
+    "cat": "official",
+    "name": "null",
+    "text": "(Magic) Target enemy value becomes 0.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "color3": [0, 0, 0],
+    "content": "\u2349"
+}, {
+    "id": "66",
+    "cat": "official",
+    "name": "void",
+    "text": "(Magic) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments.",
+    "color": [0, 0, 0],
+    "color2": [255, 255, 255],
+    "color3": [0, 0, 0],
+    "content": "\uea27"
+}, {
     "id": "0a",
     "cat": "variation",
     "name": "swap",
@@ -1155,9 +1255,9 @@ MOVES = [{
 }, {
     "id": "b12",
     "cat": "ultrapretendlimitededition",
-    "name": "void",
+    "name": "locationblock",
     "long": "m]:flag@4(-move&(BLOCK))",
-    "text": "Mark location as Void for 4 turns. A void location cannot be moved on if there isn't a unit there and blocks movement.",
+    "text": "Marked location cannot be moved on if there isn't a unit there and blocks movement.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "content": "\u2742\u2747",
