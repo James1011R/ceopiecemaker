@@ -1003,6 +1003,46 @@ MOVES = [{
     "content": "\u25cb\u2742",
     "hide": true
 }, {
+    "id": "56a",
+    "cat": "variation",
+    "name": "pathmovey",
+    "text": "(Path) Move only.",
+    "color": [0, 0, 0],
+    "color2": [50, 50, 200],
+    "color3": [0, 0, 0],
+    "content": "\u007c",
+    "hide": true
+}, {
+    "id": "57a",
+    "cat": "variation",
+    "name": "pathmovex",
+    "text": "(Path) Move only.",
+    "color": [0, 0, 0],
+    "color2": [50, 50, 200],
+    "color3": [0, 0, 0],
+    "content": "\u2500",
+    "hide": true
+}, {
+    "id": "58a",
+    "cat": "variation",
+    "name": "pathmovep",
+    "text": "(Path) Move only.",
+    "color": [0, 0, 0],
+    "color2": [50, 50, 200],
+    "color3": [0, 0, 0],
+    "content": "\u002f",
+    "hide": true
+}, {
+    "id": "59a",
+    "cat": "variation",
+    "name": "pathmoven",
+    "text": "(Path) Move only.",
+    "color": [0, 0, 0],
+    "color2": [50, 50, 200],
+    "color3": [0, 0, 0],
+    "content": "\u005c",
+    "hide": true
+}, {
     "id": "31b",
     "cat": "limbo",
     "name": "ximaera",
