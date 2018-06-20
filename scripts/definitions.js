@@ -1053,6 +1053,16 @@ MOVES = [{
     "content": "\u2219",
     "hide": true
 }, {
+    "id": "60b",
+    "cat": "variation",
+    "name": "leaponly",
+    "text": "Leap-Attack only.",
+    "color": [0, 0, 0],
+    "color2": [150, 0, 0],
+    "color3": [255, 0, 0],
+    "content": "\u2219",
+    "hide": true
+}, {
     "id": "66a",
     "cat": "variation",
     "name": "magicvoid",
