@@ -668,7 +668,7 @@ MOVES = [{
     "id": "66",
     "cat": "official",
     "name": "void",
-    "text": "(Magic) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments.",
+    "text": "[Pay 1] (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
@@ -1041,6 +1041,16 @@ MOVES = [{
     "color2": [50, 50, 200],
     "color3": [0, 0, 0],
     "content": "\u005c",
+    "hide": true
+}, {
+    "id": "66a",
+    "cat": "variation",
+    "name": "magicvoid",
+    "text": "(Magic) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments.",
+    "color": [255, 255, 255],
+    "color2": [0, 0, 0],
+    "color3": [255, 255, 255],
+    "content": "\uea27",
     "hide": true
 }, {
     "id": "31b",
