@@ -668,7 +668,7 @@ MOVES = [{
     "id": "66",
     "cat": "official",
     "name": "void",
-    "text": "[Pay 1] (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments.",
+    "text": "[Pay 1]: (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
     "color": [0, 0, 0],
     "color2": [255, 255, 255],
     "color3": [0, 0, 0],
